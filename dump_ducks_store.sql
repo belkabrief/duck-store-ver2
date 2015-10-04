@@ -56,8 +56,6 @@ INSERT INTO `categories`(`name`, `description`) VALUES ('Мини-утки','Э�
 
 INSERT INTO `categories`(`name`, `description`) VALUES ('С наполнителем','Утки с пенопластовым наполнителем'),('Для ванной','Резиновые утки для ванной');
 
-#товары для главной страницы
-SELECT * FROM `products` ORDER BY `created_at` DESC LIMIT 6;
 
 
 
