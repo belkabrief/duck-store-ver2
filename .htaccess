@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+DirectoryIndex web/index.php
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !(.ico)
+RewriteRule ^(.*)$ web/index.php [QSA,L]
+
+
+
+</IfModule>
